@@ -1,0 +1,52 @@
+.name {
+    text-align: center;
+    color: white;
+    /*text shadow make the name pop on the screen by using white and black for contrast*/
+    text-shadow: 4px 4px 10px black;
+    font-size: large;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /*the background has a gradient with 3 different shades of blue*/
+    background-image: linear-gradient(180deg, #154c79, #1e81b0, #76b5c5);
+}
+
+.heading {
+    width: 150px;
+    color: gray;
+}
+
+/*The content looked squashed so I gave the table some padding*/
+table {
+    padding: 5px;
+}
+
+td {
+    border: solid thin gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #eeeee4; 
+}
+
+a {
+    text-decoration: none;
+    color: #154c79;
+}
+
+a:hover {
+    /*I made the links change color when hovered on so that you can see that it is clickable*/
+    color: #1e81b0;
+}
+
+img {
+    margin-left: 40%;
+    margin-bottom: 2%;
+    width: 150px;
+    height: 150px;
+    border: solid white;
+    border-radius: 50%;
+    /*I made my photo round and gave it a border*/
+}
